@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/hafizh/cvcv/build",
+  "command": "/usr/bin/c++   -isystem /usr/include/opencv4  -g   -o CMakeFiles/cobacv.dir/reversecam.cpp.o -c /home/hafizh/cvcv/reversecam.cpp",
+  "file": "/home/hafizh/cvcv/reversecam.cpp"
+}
+]
