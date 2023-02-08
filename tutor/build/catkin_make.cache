@@ -1,0 +1,2 @@
+pkg
+-DCATKIN_DEVEL_PREFIX=/home/hafizh/tutorros/tutor/devel -DCMAKE_INSTALL_PREFIX=/home/hafizh/tutorros/tutor/install -G Unix Makefiles

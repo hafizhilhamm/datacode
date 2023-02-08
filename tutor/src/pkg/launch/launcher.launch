@@ -1,0 +1,4 @@
+<launch>
+<node pkg="pkg" type="publisher" name="pub"  output="screen"/>
+<node pkg="pkg" type="subscriber" name="subs" required = "true" output="screen"/>
+</launch>   
