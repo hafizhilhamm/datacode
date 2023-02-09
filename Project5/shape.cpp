@@ -33,6 +33,7 @@ cv::imshow("img",img);
 /*cv::imshow("blur",blur);
 cv::imshow("canny",canny);
 cv::imshow("dillate",dil);*/
+//ATBBcrxc3MSQbmUK6TUFFpX7wnJs8955F364//
 cv::waitKey(0);
 
 
