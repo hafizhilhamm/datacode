@@ -21,13 +21,13 @@ cv::createTrackbar("high val","Trackbar",&vmax,max);
 int main()
 {
 
- //cv::VideoCapture cap(0);//
- //cv::Mat img;// 
- std::string path = ("/home/hafizh/Pictures/card.jpg");
- cv::Mat img = cv::imread(path);
+ cv::VideoCapture cap(0);
+ cv::Mat img;
+ //std::string path = ("/home/hafizh/Pictures/card.jpg");//
+ //cv::Mat img = cv::imread(path);//
  while(true)
  {
- //cap >> img;//
+ cap >> img;
  cv::Mat hsv;
  cv::cvtColor(img,hsv,cv::COLOR_BGR2HSV);
  cv::Mat thresh;
@@ -37,7 +37,7 @@ int main()
  trackbar("Trackbar");
  cv::inRange(hsv,lower,upper,thresh);
 
-
+std:: cout << hmin << "," << smin << "," << vmin << "," << hmax << "," << smax << "," << vmax << std::endl;
  cv::imshow("img",img);
  cv::imshow("hsv",hsv);
  cv::imshow("Trackbar",thresh);

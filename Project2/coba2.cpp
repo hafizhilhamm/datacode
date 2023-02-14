@@ -30,7 +30,7 @@ int main()
 
     while(true){
     cap >> frame;
-    cv::resize(frame,frame,cv::Size(1000,700));
+    //cv::resize(frame,frame,cv::Size(1000,700));//
 
         std::cout << frame.size() << std::endl;
          int iBrightness  = iSliderValue1 - 50;
